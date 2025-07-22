@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #2196F3;
+  --secondary: #FF9800;
+  --accent: #4CAF50;
 }
 
 @theme inline {
@@ -17,6 +20,35 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+.input {
+  @apply border px-3 py-2 rounded-lg bg-gray-50 text-sm outline-none transition-all;
+  border: 1.5px solid #e7e7e7;
+}
+.input:focus {
+  border-color: #2196F3;
+  box-shadow: 0 0 0 2px #4CAF5032;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-secondary {
+  background-color: var(--secondary);
+}
+.bg-accent {
+  background-color: var(--accent);
 }
 
 body {
