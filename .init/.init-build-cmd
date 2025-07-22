@@ -1,0 +1,4 @@
+{
+    "command": "npm install && npm run lint && npm run build",
+    "working_directory": "/home/kavia/workspace/code-generation/digital-contact-card-builder-f0a57a26/nextjs_frontend"
+}
